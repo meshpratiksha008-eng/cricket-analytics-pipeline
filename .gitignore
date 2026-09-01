@@ -12,3 +12,6 @@ __pycache__/
 # System Files
 .DS_Store
 Thumbs.db
+raw_data/matches/
+raw_data/players/
+raw_data/teams/
