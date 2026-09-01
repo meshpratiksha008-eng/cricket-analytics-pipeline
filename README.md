@@ -17,5 +17,5 @@ An end-to-end data analytics and machine learning application built with Python,
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/cricket-analytics-pipeline.git](https://github.com/your-username/cricket-analytics-pipeline.git)
+   git clone https://github.com/meshpratiksha008-eng/cricket-analytics-pipeline.git
    cd cricket-analytics-pipeline
