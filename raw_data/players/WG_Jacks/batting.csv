@@ -1,0 +1,8 @@
+match_number,date,opponent,venue,runs,balls,fours,sixes,strike_rate,dismissal,batting_position
+41,2026-04-29,Sunrisers Hyderabad,"Wankhede Stadium, Mumbai",46,22,5,3,209.09,c Ishan Kishan b Nithish Kumar Reddy,1
+44,2026-05-02,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",1,5,0,0,20.0,c RS Ghosh b A Kamboj,1
+47,2026-05-04,Lucknow Super Giants,"Wankhede Stadium, Mumbai",10,4,0,1,250.0,not out,6
+54,2026-05-10,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",10,10,1,0,100.0,c JG Bethell b R Shepherd,6
+58,2026-05-14,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",25,10,2,2,250.0,not out,6
+65,2026-05-20,Kolkata Knight Riders,"Eden Gardens, Kolkata",14,7,1,1,200.0,"run out (CV Varun, RK Singh)",7
+69,2026-05-24,Rajasthan Royals,"Wankhede Stadium, Mumbai",33,18,3,2,183.33,c Dhruv Jurel b Yash Raj Punja,6

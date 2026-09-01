@@ -1,0 +1,15 @@
+match_number,date,opponent,venue,overs,maidens,runs,wickets,economy,dots,wides,noballs
+1,2026-03-28,Royal Challengers Bengaluru,"M Chinnaswamy Stadium, Bengaluru",2.0,0,19,0,9.5,3,0,0
+6,2026-04-02,Kolkata Knight Riders,"Eden Gardens, Kolkata",2.0,0,17,2,8.5,5,0,0
+10,2026-04-05,Lucknow Super Giants,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",1.0,0,14,0,14.0,1,0,0
+17,2026-04-11,Punjab Kings,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",2.0,0,20,0,10.0,1,0,0
+21,2026-04-13,Rajasthan Royals,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2.0,0,19,0,9.5,3,1,0
+27,2026-04-18,Chennai Super Kings,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",4.0,0,31,2,7.75,9,3,0
+31,2026-04-21,Delhi Capitals,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",4.0,0,57,0,14.25,5,1,0
+36,2026-04-25,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2.0,0,20,1,10.0,4,2,0
+41,2026-04-29,Mumbai Indians,"Wankhede Stadium, Mumbai",2.0,0,31,1,15.5,2,1,0
+49,2026-05-06,Punjab Kings,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2.0,0,11,1,5.5,4,0,0
+56,2026-05-12,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",3.0,0,27,0,9.0,8,0,0
+63,2026-05-18,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2.0,0,35,0,17.5,1,1,1
+67,2026-05-22,Royal Challengers Bengaluru,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",1.0,0,10,0,10.0,1,1,0
+72,2026-05-27,Rajasthan Royals,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",2.0,0,12,1,6.0,7,0,0

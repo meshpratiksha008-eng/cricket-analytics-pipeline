@@ -1,0 +1,13 @@
+match_number,date,opponent,venue,runs,balls,fours,sixes,strike_rate,dismissal,batting_position
+3,2026-03-30,Rajasthan Royals,"Barsapara Cricket Stadium, Guwahati",6,4,0,1,150.0,c Ravi Bishnoi b RA Jadeja,7
+7,2026-04-03,Punjab Kings,"MA Chidambaram Stadium, Chepauk, Chennai",45,27,5,1,166.67,not out,4
+11,2026-04-05,Royal Challengers Bengaluru,"M Chinnaswamy Stadium, Bengaluru",18,13,2,1,138.46,c JM Sharma b Abhinandan Singh,6
+18,2026-04-11,Delhi Capitals,"MA Chidambaram Stadium, Chepauk, Chennai",20,10,2,1,200.0,not out,4
+22,2026-04-14,Kolkata Knight Riders,"MA Chidambaram Stadium, Chepauk, Chennai",13,12,1,0,108.33,not out,6
+27,2026-04-18,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",21,16,1,1,131.25,b Sakib Hussain,7
+33,2026-04-23,Mumbai Indians,"Wankhede Stadium, Mumbai",5,8,0,0,62.5,b AM Ghazanfar,4
+37,2026-04-26,Gujarat Titans,"MA Chidambaram Stadium, Chepauk, Chennai",22,17,3,1,129.41,b Arshad Khan,6
+53,2026-05-10,Lucknow Super Giants,"MA Chidambaram Stadium, Chepauk, Chennai",15,7,0,2,214.29,not out,6
+59,2026-05-15,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",32,16,3,2,200.0,not out,6
+63,2026-05-18,Sunrisers Hyderabad,"MA Chidambaram Stadium, Chepauk, Chennai",26,23,3,1,113.04,b Sakib Hussain,6
+66,2026-05-21,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",47,17,4,4,276.47,c Shubman Gill b Rashid Khan,7

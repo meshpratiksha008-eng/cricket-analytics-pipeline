@@ -1,0 +1,92 @@
+match_number,opponent,bowler,overs,maidens,runs,wickets,economy,dots
+1,Sunrisers Hyderabad,Abhinandan Singh,3.0,0,38,1,12.67,7
+1,Sunrisers Hyderabad,B Kumar,4.0,0,31,1,7.75,7
+1,Sunrisers Hyderabad,JA Duffy,4.0,0,22,3,5.5,13
+1,Sunrisers Hyderabad,KH Pandya,2.0,0,26,0,13.0,1
+1,Sunrisers Hyderabad,R Shepherd,4.0,0,54,3,13.5,5
+1,Sunrisers Hyderabad,Suyash Sharma,3.0,0,28,1,9.33,6
+11,Chennai Super Kings,Abhinandan Singh,3.4,0,30,2,8.18,6
+11,Chennai Super Kings,B Kumar,4.0,0,41,3,10.25,10
+11,Chennai Super Kings,JA Duffy,4.0,0,58,2,14.5,6
+11,Chennai Super Kings,KH Pandya,3.0,0,36,2,12.0,7
+11,Chennai Super Kings,R Shepherd,1.0,0,19,0,19.0,0
+11,Chennai Super Kings,Suyash Sharma,4.0,0,21,1,5.25,9
+16,Rajasthan Royals,Abhinandan Singh,3.0,0,54,0,18.0,2
+16,Rajasthan Royals,B Kumar,4.0,0,37,0,9.25,9
+16,Rajasthan Royals,JR Hazlewood,4.0,0,44,2,11.0,7
+16,Rajasthan Royals,KH Pandya,4.0,0,30,2,7.5,7
+16,Rajasthan Royals,R Shepherd,2.0,0,18,0,9.0,0
+16,Rajasthan Royals,TH David,1.0,0,18,0,18.0,1
+20,Mumbai Indians,B Kumar,4.0,0,38,0,9.5,6
+20,Mumbai Indians,JA Duffy,4.0,0,58,1,14.5,10
+20,Mumbai Indians,KH Pandya,4.0,0,26,1,6.5,5
+20,Mumbai Indians,R Shepherd,1.1,0,28,0,24.0,2
+20,Mumbai Indians,Rasikh Salam,2.5,0,23,1,8.12,8
+20,Mumbai Indians,Suyash Sharma,4.0,0,47,2,11.75,6
+23,Lucknow Super Giants,B Kumar,4.0,0,27,3,6.75,8
+23,Lucknow Super Giants,JR Hazlewood,4.0,0,20,1,5.0,11
+23,Lucknow Super Giants,KH Pandya,4.0,0,38,2,9.5,10
+23,Lucknow Super Giants,Rasikh Salam,4.0,0,24,4,6.0,12
+23,Lucknow Super Giants,Suyash Sharma,4.0,0,34,0,8.5,7
+26,Delhi Capitals,B Kumar,4.0,0,26,3,6.5,8
+26,Delhi Capitals,JR Hazlewood,4.0,0,38,0,9.5,8
+26,Delhi Capitals,KH Pandya,4.0,0,24,1,6.0,5
+26,Delhi Capitals,R Shepherd,0.5,0,17,0,20.4,0
+26,Delhi Capitals,Rasikh Salam,4.0,0,40,0,10.0,4
+26,Delhi Capitals,Suyash Sharma,3.0,0,31,0,10.33,2
+34,Gujarat Titans,B Kumar,4.0,0,31,1,7.75,6
+34,Gujarat Titans,JR Hazlewood,4.0,0,40,1,10.0,10
+34,Gujarat Titans,KH Pandya,4.0,0,50,0,12.5,4
+34,Gujarat Titans,R Shepherd,1.0,0,17,0,17.0,0
+34,Gujarat Titans,Rasikh Salam,3.0,0,28,0,9.33,3
+34,Gujarat Titans,Suyash Sharma,4.0,0,36,1,9.0,4
+39,Delhi Capitals,B Kumar,3.0,0,5,3,1.67,15
+39,Delhi Capitals,JR Hazlewood,3.3,0,12,4,3.43,15
+39,Delhi Capitals,KH Pandya,2.0,0,9,1,4.5,4
+39,Delhi Capitals,R Shepherd,2.0,0,21,0,10.5,3
+39,Delhi Capitals,Rasikh Salam,2.0,0,21,1,10.5,3
+39,Delhi Capitals,Suyash Sharma,4.0,1,7,1,1.75,20
+42,Gujarat Titans,B Kumar,4.0,0,28,3,7.0,11
+42,Gujarat Titans,JR Hazlewood,4.0,0,56,0,14.0,7
+42,Gujarat Titans,R Shepherd,4.0,0,30,2,7.5,10
+42,Gujarat Titans,Suyash Sharma,3.5,0,44,1,11.48,5
+50,Lucknow Super Giants,B Kumar,4.0,0,34,0,8.5,8
+50,Lucknow Super Giants,JR Hazlewood,4.0,0,49,1,12.25,9
+50,Lucknow Super Giants,KH Pandya,4.0,0,31,1,7.75,12
+50,Lucknow Super Giants,R Shepherd,1.0,0,16,0,16.0,1
+50,Lucknow Super Giants,Rasikh Salam,4.0,0,53,1,13.25,4
+50,Lucknow Super Giants,Suyash Sharma,2.0,0,21,0,10.5,2
+54,Mumbai Indians,B Kumar,4.0,0,23,4,5.75,12
+54,Mumbai Indians,JR Hazlewood,4.0,0,33,1,8.25,10
+54,Mumbai Indians,KH Pandya,3.0,0,26,0,8.67,1
+54,Mumbai Indians,R Shepherd,3.0,0,18,1,6.0,8
+54,Mumbai Indians,Rasikh Salam,4.0,0,42,1,10.5,6
+54,Mumbai Indians,Suyash Sharma,2.0,0,21,0,10.5,1
+57,Kolkata Knight Riders,B Kumar,4.0,0,34,1,8.5,9
+57,Kolkata Knight Riders,JA Duffy,4.0,0,48,0,12.0,9
+57,Kolkata Knight Riders,JR Hazlewood,4.0,0,35,1,8.75,7
+57,Kolkata Knight Riders,KH Pandya,4.0,0,39,0,9.75,5
+57,Kolkata Knight Riders,Rasikh Salam,4.0,0,35,1,8.75,6
+61,Punjab Kings,B Kumar,4.0,0,38,2,9.5,10
+61,Punjab Kings,JR Hazlewood,4.0,0,36,1,9.0,9
+61,Punjab Kings,KH Pandya,3.0,0,27,0,9.0,1
+61,Punjab Kings,R Shepherd,1.0,0,8,1,8.0,2
+61,Punjab Kings,Rasikh Salam,4.0,0,36,3,9.0,12
+61,Punjab Kings,Suyash Sharma,4.0,0,50,1,12.5,3
+67,Sunrisers Hyderabad,B Kumar,4.0,0,51,0,12.75,5
+67,Sunrisers Hyderabad,JR Hazlewood,4.0,0,55,0,13.75,5
+67,Sunrisers Hyderabad,KH Pandya,2.0,0,24,1,12.0,5
+67,Sunrisers Hyderabad,R Shepherd,3.0,0,37,0,12.33,2
+67,Sunrisers Hyderabad,Rasikh Salam,4.0,0,52,2,13.0,6
+67,Sunrisers Hyderabad,Suyash Sharma,3.0,0,36,1,12.0,6
+71,Gujarat Titans,B Kumar,4.0,0,28,2,7.0,14
+71,Gujarat Titans,JA Duffy,4.0,0,39,3,9.75,11
+71,Gujarat Titans,JR Hazlewood,4.0,0,39,1,9.75,13
+71,Gujarat Titans,KH Pandya,3.3,0,16,2,4.57,12
+71,Gujarat Titans,R Shepherd,1.0,0,15,0,15.0,2
+71,Gujarat Titans,Rasikh Salam,3.0,1,24,2,8.0,10
+74,Gujarat Titans,B Kumar,4.0,0,29,2,7.25,11
+74,Gujarat Titans,JA Duffy,4.0,0,38,0,9.5,5
+74,Gujarat Titans,JR Hazlewood,4.0,0,37,2,9.25,7
+74,Gujarat Titans,KH Pandya,4.0,0,23,1,5.75,7
+74,Gujarat Titans,Rasikh Salam,4.0,0,27,3,6.75,8

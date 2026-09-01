@@ -1,0 +1,12 @@
+match_number,date,opponent,venue,runs,balls,fours,sixes,strike_rate,dismissal,batting_position
+5,2026-04-01,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",0,1,0,0,0.0,b Prince Yadav,5
+14,2026-04-08,Gujarat Titans,"Arun Jaitley Stadium, Delhi",2,3,0,0,66.67,c GD Phillips b Rashid Khan,6
+18,2026-04-11,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",1,2,0,0,50.0,c SN Khan b Gurjapneet Singh,4
+26,2026-04-18,Royal Challengers Bengaluru,"M Chinnaswamy Stadium, Bengaluru",26,19,3,0,136.84,retired hurt,6
+31,2026-04-21,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2,3,0,0,66.67,c Nithish Kumar Reddy b Harsh Dubey,8
+39,2026-04-27,Royal Challengers Bengaluru,"Arun Jaitley Stadium, Delhi",0,3,0,0,0.0,c JM Sharma b B Kumar,6
+48,2026-05-05,Chennai Super Kings,"Arun Jaitley Stadium, Delhi",2,6,0,0,33.33,c AJ Hosein b Gurjapneet Singh,5
+51,2026-05-08,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",11,22,0,0,50.0,c AS Roy b VG Arora,6
+55,2026-05-11,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",56,30,8,2,186.67,c BJ Dwarshuis b MP Stoinis,5
+62,2026-05-17,Rajasthan Royals,"Arun Jaitley Stadium, Delhi",34,18,2,2,188.89,not out,4
+70,2026-05-24,Kolkata Knight Riders,"Eden Gardens, Kolkata",39,25,3,2,156.0,c RK Singh b CV Varun,4

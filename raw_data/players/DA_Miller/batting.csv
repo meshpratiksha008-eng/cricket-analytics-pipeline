@@ -1,0 +1,11 @@
+match_number,date,opponent,venue,runs,balls,fours,sixes,strike_rate,dismissal,batting_position
+8,2026-04-04,Mumbai Indians,"Arun Jaitley Stadium, Delhi",21,18,4,0,116.67,not out,5
+14,2026-04-08,Gujarat Titans,"Arun Jaitley Stadium, Delhi",41,20,3,3,205.0,not out,5
+18,2026-04-11,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",17,14,1,1,121.43,b J Overton,5
+26,2026-04-18,Royal Challengers Bengaluru,"M Chinnaswamy Stadium, Bengaluru",22,10,1,2,220.0,not out,7
+31,2026-04-21,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",0,1,0,0,0.0,b E Malinga,5
+35,2026-04-25,Punjab Kings,"Arun Jaitley Stadium, Delhi",3,3,0,0,100.0,not out,4
+39,2026-04-27,Royal Challengers Bengaluru,"Arun Jaitley Stadium, Delhi",19,18,3,0,105.56,c JM Sharma b Rasikh Salam,8
+55,2026-05-11,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",51,28,3,4,182.14,c P Simran Singh b BJ Dwarshuis,6
+62,2026-05-17,Rajasthan Royals,"Arun Jaitley Stadium, Delhi",9,6,0,1,150.0,c MD Shanaka b Brijesh Sharma,6
+70,2026-05-24,Kolkata Knight Riders,"Eden Gardens, Kolkata",28,19,0,3,147.37,c FH Allen b SR Dubey,5

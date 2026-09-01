@@ -1,0 +1,17 @@
+innings,team,wicket_number,batter_1,batter_1_runs,batter_1_balls,batter_2,batter_2_runs,batter_2_balls,extras,total_runs,total_balls
+1,Royal Challengers Bengaluru,1,VR Iyer,19,7,V Kohli,2,5,0,21,12
+1,Royal Challengers Bengaluru,2,V Kohli,41,20,D Padikkal,30,18,1,72,38
+1,Royal Challengers Bengaluru,3,RM Patidar,1,1,D Padikkal,0,1,0,1,2
+1,Royal Challengers Bengaluru,4,KH Pandya,43,28,RM Patidar,48,19,4,95,45
+1,Royal Challengers Bengaluru,5,TH David,4,5,RM Patidar,19,6,2,25,11
+1,Royal Challengers Bengaluru,6,RM Patidar,25,7,JM Sharma,15,5,0,40,12
+2,Gujarat Titans,1,B Sai Sudharsan,14,9,Shubman Gill,2,6,1,17,15
+2,Gujarat Titans,2,JC Buttler,10,3,Shubman Gill,0,1,0,10,4
+2,Gujarat Titans,3,N Sindhu,5,2,JC Buttler,19,8,0,24,10
+2,Gujarat Titans,4,Washington Sundar,0,1,N Sindhu,0,1,0,0,2
+2,Gujarat Titans,5,JO Holder,0,3,Washington Sundar,0,0,0,0,3
+2,Gujarat Titans,6,R Tewatia,4,10,Washington Sundar,8,7,2,14,16
+2,Gujarat Titans,7,Rashid Khan,8,9,R Tewatia,3,4,2,13,13
+2,Gujarat Titans,8,K Rabada,9,5,R Tewatia,0,0,1,10,5
+2,Gujarat Titans,9,Mohammed Siraj,5,12,R Tewatia,61,29,2,68,41
+2,Gujarat Titans,10,M Prasidh Krishna,6,7,Mohammed Siraj,0,1,0,6,8

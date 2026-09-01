@@ -1,0 +1,99 @@
+match_number,opponent,batter,runs,balls,fours,sixes,strike_rate,dismissal
+4,Gujarat Titans,Priyansh Arya,7,8,0,1,87.5,c Ashok Sharma b K Rabada
+4,Gujarat Titans,P Simran Singh,37,24,1,4,154.17,c M Prasidh Krishna b Rashid Khan
+4,Gujarat Titans,C Connolly,72,44,5,5,163.64,not out
+4,Gujarat Titans,SS Iyer,18,11,0,2,163.64,c Washington Sundar b M Prasidh Krishna
+4,Gujarat Titans,N Wadhera,3,6,0,0,50.0,c Shubman Gill b Washington Sundar
+4,Gujarat Titans,Shashank Singh,4,5,0,0,80.0,c JC Buttler b M Prasidh Krishna
+4,Gujarat Titans,MP Stoinis,0,2,0,0,0.0,c Rashid Khan b M Prasidh Krishna
+4,Gujarat Titans,M Jansen,9,10,0,1,90.0,c Shubman Gill b Ashok Sharma
+4,Gujarat Titans,XC Bartlett,11,5,0,1,220.0,not out
+7,Chennai Super Kings,Priyansh Arya,39,11,3,4,354.55,b MJ Henry
+7,Chennai Super Kings,P Simran Singh,43,34,6,1,126.47,"run out (RD Gaikwad, SN Khan)"
+7,Chennai Super Kings,C Connolly,36,22,6,0,163.64,c MJ Henry b A Kamboj
+7,Chennai Super Kings,SS Iyer,50,29,4,3,172.41,c RD Chahar b A Kamboj
+7,Chennai Super Kings,N Wadhera,10,9,0,1,111.11,c Noor Ahmad b MJ Henry
+7,Chennai Super Kings,Shashank Singh,14,6,2,0,233.33,not out
+7,Chennai Super Kings,MP Stoinis,9,3,2,0,300.0,not out
+17,Sunrisers Hyderabad,Priyansh Arya,57,20,5,5,285.0,c Nithish Kumar Reddy b Shivang Kumar
+17,Sunrisers Hyderabad,P Simran Singh,51,25,4,4,204.0,c H Klaasen b Shivang Kumar
+17,Sunrisers Hyderabad,C Connolly,11,12,1,0,91.67,c Aniket Verma b Shivang Kumar
+17,Sunrisers Hyderabad,SS Iyer,69,33,5,5,209.09,not out
+17,Sunrisers Hyderabad,N Wadhera,14,14,0,1,100.0,b Harsh Dubey
+17,Sunrisers Hyderabad,Shashank Singh,16,9,1,1,177.78,not out
+24,Mumbai Indians,Priyansh Arya,15,9,2,1,166.67,c DL Chahar b AM Ghazanfar
+24,Mumbai Indians,P Simran Singh,80,39,11,2,205.13,not out
+24,Mumbai Indians,C Connolly,17,12,1,2,141.67,c Q de Kock b AM Ghazanfar
+24,Mumbai Indians,SS Iyer,66,35,5,4,188.57,c Naman Dhir b SN Thakur
+24,Mumbai Indians,MP Stoinis,10,5,2,0,200.0,not out
+29,Lucknow Super Giants,Priyansh Arya,93,37,4,9,251.35,c MR Marsh b M Siddharth
+29,Lucknow Super Giants,P Simran Singh,0,1,0,0,0.0,c MR Marsh b Mohammed Shami
+29,Lucknow Super Giants,C Connolly,87,46,8,7,189.13,c M Siddharth b Prince Yadav
+29,Lucknow Super Giants,SS Iyer,5,6,0,0,83.33,c Mohammed Shami b Mohsin Khan
+29,Lucknow Super Giants,MP Stoinis,29,16,2,2,181.25,run out (N Pooran)
+29,Lucknow Super Giants,N Wadhera,13,7,1,1,185.71,c N Pooran b M Siddharth
+29,Lucknow Super Giants,Shashank Singh,17,6,1,2,283.33,c AK Markram b Prince Yadav
+29,Lucknow Super Giants,M Jansen,1,1,0,0,100.0,not out
+35,Delhi Capitals,Priyansh Arya,43,17,2,5,252.94,c Sameer Rizvi b AR Patel
+35,Delhi Capitals,P Simran Singh,76,26,9,5,292.31,lbw b Kuldeep Yadav
+35,Delhi Capitals,C Connolly,17,10,1,1,170.0,b Kuldeep Yadav
+35,Delhi Capitals,SS Iyer,71,36,3,7,197.22,not out
+35,Delhi Capitals,N Wadhera,25,15,3,1,166.67,c KK Nair b V Nigam
+35,Delhi Capitals,Shashank Singh,19,10,2,1,190.0,not out
+40,Rajasthan Royals,P Simran Singh,59,44,6,1,134.09,c R Parag b Yash Raj Punja
+40,Rajasthan Royals,Priyansh Arya,29,11,5,1,263.64,c N Burger b JC Archer
+40,Rajasthan Royals,C Connolly,30,14,2,3,214.29,c D Ferreira b Yash Raj Punja
+40,Rajasthan Royals,SS Iyer,30,27,1,1,111.11,c Dhruv Jurel b N Burger
+40,Rajasthan Royals,MP Stoinis,62,22,4,6,281.82,not out
+40,Rajasthan Royals,Suryansh Shedge,3,2,0,0,150.0,not out
+46,Gujarat Titans,Priyansh Arya,2,2,0,0,100.0,c N Sindhu b Mohammed Siraj
+46,Gujarat Titans,P Simran Singh,15,14,2,0,107.14,c MJ Suthar b K Rabada
+46,Gujarat Titans,C Connolly,0,1,0,0,0.0,c JC Buttler b Mohammed Siraj
+46,Gujarat Titans,SS Iyer,19,21,3,0,90.48,b JO Holder
+46,Gujarat Titans,N Wadhera,0,6,0,0,0.0,c JC Buttler b JO Holder
+46,Gujarat Titans,Suryansh Shedge,57,29,3,5,196.55,c JC Buttler b K Rabada
+46,Gujarat Titans,MP Stoinis,40,31,5,1,129.03,c Washington Sundar b JO Holder
+46,Gujarat Titans,M Jansen,20,11,1,1,181.82,c Shubman Gill b Rashid Khan
+46,Gujarat Titans,XC Bartlett,0,1,0,0,0.0,b JO Holder
+46,Gujarat Titans,Vijaykumar Vyshak,1,3,0,0,33.33,not out
+46,Gujarat Titans,Arshdeep Singh,1,1,0,0,100.0,not out
+49,Sunrisers Hyderabad,Priyansh Arya,1,3,0,0,33.33,c E Malinga b PJ Cummins
+49,Sunrisers Hyderabad,P Simran Singh,3,4,0,0,75.0,c PJ Cummins b Nithish Kumar Reddy
+49,Sunrisers Hyderabad,C Connolly,107,59,7,8,181.36,not out
+49,Sunrisers Hyderabad,SS Iyer,5,5,1,0,100.0,c PJ Cummins b E Malinga
+49,Sunrisers Hyderabad,MP Stoinis,28,14,3,2,200.0,c Ishan Kishan b Shivang Kumar
+49,Sunrisers Hyderabad,Suryansh Shedge,25,17,1,2,147.06,c Abhishek Sharma b PJ Cummins
+49,Sunrisers Hyderabad,Shashank Singh,4,3,1,0,133.33,c Nithish Kumar Reddy b Sakib Hussain
+49,Sunrisers Hyderabad,M Jansen,19,16,0,1,118.75,c Harsh Dubey b Shivang Kumar
+49,Sunrisers Hyderabad,Vijaykumar Vyshak,1,1,0,0,100.0,not out
+55,Delhi Capitals,Priyansh Arya,56,33,2,6,169.7,c SU Parakh b M Tiwari
+55,Delhi Capitals,P Simran Singh,18,15,3,0,120.0,c Auqib Nabi b Mukesh Kumar
+55,Delhi Capitals,SS Iyer,59,36,5,3,163.89,not out
+55,Delhi Capitals,C Connolly,38,27,3,2,140.74,c DA Miller b M Tiwari
+55,Delhi Capitals,MP Stoinis,1,2,0,0,50.0,c M Tiwari b MA Starc
+55,Delhi Capitals,Shashank Singh,0,1,0,0,0.0,c AR Patel b MA Starc
+55,Delhi Capitals,Suryansh Shedge,21,8,2,2,262.5,not out
+58,Mumbai Indians,Priyansh Arya,22,17,4,0,129.41,b DL Chahar
+58,Mumbai Indians,P Simran Singh,57,32,6,4,178.12,c C Bosch b SN Thakur
+58,Mumbai Indians,C Connolly,21,22,2,1,95.45,b RA Bawa
+58,Mumbai Indians,SS Iyer,4,2,1,0,200.0,b SN Thakur
+58,Mumbai Indians,Suryansh Shedge,8,5,0,1,160.0,c RA Bawa b SN Thakur
+58,Mumbai Indians,Shashank Singh,2,3,0,0,66.67,lbw b C Bosch
+58,Mumbai Indians,Azmatullah Omarzai,38,17,2,4,223.53,c WG Jacks b DL Chahar
+58,Mumbai Indians,M Jansen,2,7,0,0,28.57,b SN Thakur
+58,Mumbai Indians,Vishnu Vinod,15,8,1,1,187.5,not out
+58,Mumbai Indians,XC Bartlett,18,7,2,1,257.14,not out
+61,Royal Challengers Bengaluru,Priyansh Arya,0,3,0,0,0.0,c R Shepherd b B Kumar
+61,Royal Challengers Bengaluru,P Simran Singh,2,5,0,0,40.0,c D Padikkal b B Kumar
+61,Royal Challengers Bengaluru,C Connolly,37,22,3,3,168.18,c JG Bethell b R Shepherd
+61,Royal Challengers Bengaluru,SS Iyer,1,3,0,0,33.33,c JM Sharma b Rasikh Salam
+61,Royal Challengers Bengaluru,Suryansh Shedge,35,22,2,2,159.09,c V Kohli b Suyash Sharma
+61,Royal Challengers Bengaluru,MP Stoinis,37,25,5,0,148.0,lbw b JR Hazlewood
+61,Royal Challengers Bengaluru,Shashank Singh,56,27,4,4,207.41,c V Kohli b Rasikh Salam
+61,Royal Challengers Bengaluru,Azmatullah Omarzai,14,10,1,1,140.0,c TH David b Rasikh Salam
+61,Royal Challengers Bengaluru,Harpreet Brar,5,3,1,0,166.67,not out
+68,Lucknow Super Giants,Priyansh Arya,0,1,0,0,0.0,c Arjun Tendulkar b Mohammed Shami
+68,Lucknow Super Giants,P Simran Singh,69,39,7,2,176.92,lbw b Arjun Tendulkar
+68,Lucknow Super Giants,C Connolly,18,10,4,0,180.0,b Mohammed Shami
+68,Lucknow Super Giants,SS Iyer,101,51,11,5,198.04,not out
+68,Lucknow Super Giants,Suryansh Shedge,9,7,1,0,128.57,not out

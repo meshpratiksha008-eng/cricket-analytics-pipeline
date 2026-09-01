@@ -1,0 +1,14 @@
+match_number,date,opponent,venue,runs,balls,fours,sixes,strike_rate,dismissal,batting_position
+2,2026-03-29,Kolkata Knight Riders,"Wankhede Stadium, Mumbai",16,8,3,0,200.0,c RK Singh b Kartik Tyagi,3
+8,2026-04-04,Delhi Capitals,"Arun Jaitley Stadium, Delhi",51,36,3,2,141.67,lbw b L Ngidi,4
+13,2026-04-07,Rajasthan Royals,"Barsapara Cricket Stadium, Guwahati",6,3,0,1,200.0,c JC Archer b N Burger,3
+20,2026-04-12,Royal Challengers Bengaluru,"Wankhede Stadium, Mumbai",33,22,5,0,150.0,c Rasikh Salam b KH Pandya,3
+24,2026-04-16,Punjab Kings,"Wankhede Stadium, Mumbai",0,1,0,0,0.0,c YS Chahal b Arshdeep Singh,3
+30,2026-04-20,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",15,10,1,1,150.0,b K Rabada,4
+33,2026-04-23,Chennai Super Kings,"Wankhede Stadium, Mumbai",36,30,5,0,120.0,c SN Khan b AJ Hosein,4
+41,2026-04-29,Sunrisers Hyderabad,"Wankhede Stadium, Mumbai",5,5,1,0,100.0,c Abhishek Sharma b E Malinga,3
+44,2026-05-02,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",21,12,3,1,175.0,c D Brevis b RS Ghosh,4
+47,2026-05-04,Lucknow Super Giants,"Wankhede Stadium, Mumbai",12,7,2,0,171.43,c N Pooran b Mohammed Shami,4
+54,2026-05-10,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",0,1,0,0,0.0,c V Kohli b B Kumar,4
+65,2026-05-20,Kolkata Knight Riders,"Eden Gardens, Kolkata",15,6,2,1,250.0,b SR Dubey,4
+69,2026-05-24,Rajasthan Royals,"Wankhede Stadium, Mumbai",60,42,3,4,142.86,c & b N Burger,4

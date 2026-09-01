@@ -1,0 +1,98 @@
+match_number,opponent,bowler,overs,maidens,runs,wickets,economy,dots
+4,Punjab Kings,Ashok Sharma,3.0,0,31,1,10.33,8
+4,Punjab Kings,K Rabada,3.0,0,34,1,11.33,7
+4,Punjab Kings,M Prasidh Krishna,4.0,0,29,3,7.25,11
+4,Punjab Kings,Mohammed Siraj,2.0,0,15,0,7.5,6
+4,Punjab Kings,Rashid Khan,4.0,0,29,1,7.25,10
+4,Punjab Kings,Washington Sundar,3.1,0,27,1,8.53,6
+9,Rajasthan Royals,Ashok Sharma,4.0,0,37,1,9.25,10
+9,Rajasthan Royals,K Rabada,4.0,0,42,2,10.5,11
+9,Rajasthan Royals,M Prasidh Krishna,4.0,0,43,1,10.75,9
+9,Rajasthan Royals,Mohammed Siraj,4.0,0,48,1,12.0,10
+9,Rajasthan Royals,Rashid Khan,4.0,0,39,1,9.75,4
+14,Delhi Capitals,Ashok Sharma,3.0,0,45,0,15.0,2
+14,Delhi Capitals,K Rabada,4.0,0,32,0,8.0,9
+14,Delhi Capitals,M Prasidh Krishna,4.0,0,52,2,13.0,7
+14,Delhi Capitals,Mohammed Siraj,4.0,0,52,1,13.0,8
+14,Delhi Capitals,Rashid Khan,4.0,0,17,3,4.25,10
+14,Delhi Capitals,Washington Sundar,1.0,0,11,0,11.0,1
+19,Lucknow Super Giants,Ashok Sharma,4.0,0,32,2,8.0,10
+19,Lucknow Super Giants,K Rabada,4.0,0,54,1,13.5,7
+19,Lucknow Super Giants,M Prasidh Krishna,4.0,0,28,4,7.0,13
+19,Lucknow Super Giants,Mohammed Siraj,4.0,0,19,1,4.75,11
+19,Lucknow Super Giants,Rashid Khan,4.0,0,25,0,6.25,9
+25,Kolkata Knight Riders,Ashok Sharma,4.0,0,45,2,11.25,11
+25,Kolkata Knight Riders,K Rabada,4.0,0,29,3,7.25,12
+25,Kolkata Knight Riders,M Prasidh Krishna,4.0,0,32,1,8.0,8
+25,Kolkata Knight Riders,Mohammed Siraj,4.0,0,23,2,5.75,14
+25,Kolkata Knight Riders,Rashid Khan,4.0,0,44,1,11.0,7
+30,Mumbai Indians,Ashok Sharma,3.0,0,38,0,12.67,7
+30,Mumbai Indians,K Rabada,4.0,0,33,3,8.25,10
+30,Mumbai Indians,M Prasidh Krishna,4.0,0,54,1,13.5,4
+30,Mumbai Indians,Mohammed Siraj,4.0,0,25,1,6.25,9
+30,Mumbai Indians,Rashid Khan,4.0,0,31,0,7.75,3
+30,Mumbai Indians,Washington Sundar,1.0,0,13,0,13.0,1
+34,Royal Challengers Bengaluru,JO Holder,3.5,0,35,1,9.13,8
+34,Royal Challengers Bengaluru,K Rabada,4.0,0,45,0,11.25,6
+34,Royal Challengers Bengaluru,M Prasidh Krishna,2.0,0,31,0,15.5,1
+34,Royal Challengers Bengaluru,MJ Suthar,2.0,0,19,1,9.5,4
+34,Royal Challengers Bengaluru,Mohammed Siraj,3.0,0,25,1,8.33,8
+34,Royal Challengers Bengaluru,Rashid Khan,4.0,0,49,2,12.25,7
+37,Chennai Super Kings,Arshad Khan,4.0,0,43,2,10.75,12
+37,Chennai Super Kings,JO Holder,4.0,0,22,0,5.5,13
+37,Chennai Super Kings,K Rabada,4.0,0,25,3,6.25,15
+37,Chennai Super Kings,MJ Suthar,3.0,0,22,1,7.33,9
+37,Chennai Super Kings,Mohammed Siraj,4.0,0,23,1,5.75,14
+37,Chennai Super Kings,Rashid Khan,1.0,0,21,0,21.0,1
+42,Royal Challengers Bengaluru,Arshad Khan,3.2,1,22,3,6.6,11
+42,Royal Challengers Bengaluru,JO Holder,4.0,0,29,2,7.25,7
+42,Royal Challengers Bengaluru,K Rabada,4.0,0,44,1,11.0,9
+42,Royal Challengers Bengaluru,Mohammed Siraj,4.0,0,38,1,9.5,11
+42,Royal Challengers Bengaluru,Rashid Khan,4.0,0,19,2,4.75,15
+46,Punjab Kings,Arshad Khan,3.0,0,29,0,9.67,5
+46,Punjab Kings,JO Holder,4.0,0,24,4,6.0,10
+46,Punjab Kings,K Rabada,4.0,1,22,2,5.5,15
+46,Punjab Kings,MJ Suthar,1.0,0,27,0,27.0,0
+46,Punjab Kings,Mohammed Siraj,4.0,0,28,2,7.0,11
+46,Punjab Kings,Rashid Khan,4.0,0,32,1,8.0,7
+52,Rajasthan Royals,JO Holder,2.3,0,12,3,4.8,8
+52,Rajasthan Royals,K Rabada,3.0,0,33,2,11.0,9
+52,Rajasthan Royals,Mohammed Siraj,4.0,0,55,1,13.75,8
+52,Rajasthan Royals,R Sai Kishore,1.0,0,8,0,8.0,1
+52,Rajasthan Royals,Rashid Khan,4.0,0,33,4,8.25,11
+52,Rajasthan Royals,Washington Sundar,2.0,0,10,0,5.0,6
+56,Sunrisers Hyderabad,JO Holder,4.0,0,20,3,5.0,15
+56,Sunrisers Hyderabad,K Rabada,4.0,0,28,3,7.0,13
+56,Sunrisers Hyderabad,M Prasidh Krishna,3.0,0,23,2,7.67,10
+56,Sunrisers Hyderabad,Mohammed Siraj,3.0,1,11,1,3.67,13
+56,Sunrisers Hyderabad,Rashid Khan,0.5,0,3,1,3.6,2
+60,Kolkata Knight Riders,Arshad Khan,1.0,0,22,0,22.0,2
+60,Kolkata Knight Riders,JO Holder,4.0,0,39,0,9.75,5
+60,Kolkata Knight Riders,K Rabada,4.0,0,40,0,10.0,9
+60,Kolkata Knight Riders,Mohammed Siraj,4.0,0,50,1,12.5,8
+60,Kolkata Knight Riders,R Sai Kishore,3.0,0,38,1,12.67,5
+60,Kolkata Knight Riders,Rashid Khan,4.0,0,57,0,14.25,4
+66,Chennai Super Kings,Arshad Khan,2.0,0,24,0,12.0,4
+66,Chennai Super Kings,JO Holder,2.0,0,27,0,13.5,2
+66,Chennai Super Kings,K Rabada,3.4,1,32,3,8.73,10
+66,Chennai Super Kings,M Prasidh Krishna,1.0,0,13,0,13.0,1
+66,Chennai Super Kings,Mohammed Siraj,3.0,0,26,3,8.67,10
+66,Chennai Super Kings,Rashid Khan,2.0,0,18,3,9.0,6
+71,Royal Challengers Bengaluru,JO Holder,4.0,0,39,2,9.75,5
+71,Royal Challengers Bengaluru,K Khejroliya,2.0,0,31,0,15.5,3
+71,Royal Challengers Bengaluru,K Rabada,4.0,0,54,2,13.5,8
+71,Royal Challengers Bengaluru,M Prasidh Krishna,4.0,0,53,1,13.25,3
+71,Royal Challengers Bengaluru,Mohammed Siraj,3.0,0,46,0,15.33,4
+71,Royal Challengers Bengaluru,Rashid Khan,3.0,0,29,0,9.67,3
+73,Rajasthan Royals,JO Holder,4.0,0,27,2,6.75,14
+73,Rajasthan Royals,K Rabada,4.0,0,35,2,8.75,10
+73,Rajasthan Royals,M Prasidh Krishna,4.0,0,42,1,10.5,8
+73,Rajasthan Royals,Mohammed Siraj,4.0,0,42,1,10.5,10
+73,Rajasthan Royals,Rashid Khan,2.0,0,45,0,22.5,1
+73,Rajasthan Royals,Washington Sundar,2.0,0,23,0,11.5,0
+74,Royal Challengers Bengaluru,Arshad Khan,4.0,0,32,1,8.0,9
+74,Royal Challengers Bengaluru,JO Holder,2.0,0,16,0,8.0,5
+74,Royal Challengers Bengaluru,K Rabada,3.0,0,44,1,14.67,7
+74,Royal Challengers Bengaluru,M Prasidh Krishna,1.0,0,7,0,7.0,3
+74,Royal Challengers Bengaluru,Mohammed Siraj,4.0,0,36,1,9.0,9
+74,Royal Challengers Bengaluru,Rashid Khan,4.0,0,25,2,6.25,9

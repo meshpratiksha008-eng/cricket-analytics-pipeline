@@ -1,0 +1,111 @@
+match_number,opponent,batter,runs,balls,fours,sixes,strike_rate,dismissal
+5,Lucknow Super Giants,KL Rahul,0,1,0,0,0.0,c Mohsin Khan b Mohammed Shami
+5,Lucknow Super Giants,P Nissanka,1,5,0,0,20.0,c RR Pant b Prince Yadav
+5,Lucknow Super Giants,N Rana,15,17,2,1,88.24,c Abdul Samad b Mohsin Khan
+5,Lucknow Super Giants,Sameer Rizvi,70,47,5,4,148.94,not out
+5,Lucknow Super Giants,AR Patel,0,1,0,0,0.0,b Prince Yadav
+5,Lucknow Super Giants,T Stubbs,39,32,3,1,121.88,not out
+8,Mumbai Indians,KL Rahul,1,3,0,0,33.33,c RD Rickelton b DL Chahar
+8,Mumbai Indians,P Nissanka,44,30,6,1,146.67,c M Markande b MJ Santner
+8,Mumbai Indians,N Rana,0,3,0,0,0.0,run out (JJ Bumrah)
+8,Mumbai Indians,Sameer Rizvi,90,51,7,7,176.47,c Tilak Varma b C Bosch
+8,Mumbai Indians,DA Miller,21,18,4,0,116.67,not out
+8,Mumbai Indians,T Stubbs,3,4,0,0,75.0,not out
+14,Gujarat Titans,P Nissanka,41,24,6,1,170.83,c R Tewatia b M Prasidh Krishna
+14,Gujarat Titans,KL Rahul,92,52,11,4,176.92,c JC Buttler b Mohammed Siraj
+14,Gujarat Titans,N Rana,5,6,1,0,83.33,c B Sai Sudharsan b Rashid Khan
+14,Gujarat Titans,Sameer Rizvi,0,1,0,0,0.0,b Rashid Khan
+14,Gujarat Titans,DA Miller,41,20,3,3,205.0,not out
+14,Gujarat Titans,AR Patel,2,3,0,0,66.67,c GD Phillips b Rashid Khan
+14,Gujarat Titans,T Stubbs,7,6,0,0,116.67,run out (B Sai Sudharsan)
+14,Gujarat Titans,V Nigam,12,7,2,0,171.43,c Shubman Gill b M Prasidh Krishna
+14,Gujarat Titans,Kuldeep Yadav,1,1,0,0,100.0,run out (JC Buttler)
+18,Chennai Super Kings,P Nissanka,41,24,5,2,170.83,c D Brevis b A Kamboj
+18,Chennai Super Kings,KL Rahul,18,10,2,1,180.0,c J Overton b KK Ahmed
+18,Chennai Super Kings,Sameer Rizvi,6,9,1,0,66.67,c D Brevis b J Overton
+18,Chennai Super Kings,AR Patel,1,2,0,0,50.0,c SN Khan b Gurjapneet Singh
+18,Chennai Super Kings,DA Miller,17,14,1,1,121.43,b J Overton
+18,Chennai Super Kings,T Stubbs,60,38,4,3,157.89,c Noor Ahmad b J Overton
+18,Chennai Super Kings,Ashutosh Sharma,19,10,1,2,190.0,c A Kamboj b Noor Ahmad
+18,Chennai Super Kings,Auqib Nabi,4,2,1,0,200.0,c AJ Hosein b J Overton
+18,Chennai Super Kings,Kuldeep Yadav,4,7,0,0,57.14,c D Brevis b A Kamboj
+18,Chennai Super Kings,L Ngidi,3,5,0,0,60.0,c Gurjapneet Singh b A Kamboj
+18,Chennai Super Kings,T Natarajan,1,2,0,0,50.0,not out
+26,Royal Challengers Bengaluru,P Nissanka,1,2,0,0,50.0,lbw b B Kumar
+26,Royal Challengers Bengaluru,KL Rahul,57,34,6,2,167.65,c V Kohli b KH Pandya
+26,Royal Challengers Bengaluru,KK Nair,5,5,1,0,100.0,c PD Salt b B Kumar
+26,Royal Challengers Bengaluru,Sameer Rizvi,2,3,0,0,66.67,c JM Sharma b B Kumar
+26,Royal Challengers Bengaluru,T Stubbs,60,47,4,1,127.66,not out
+26,Royal Challengers Bengaluru,AR Patel,26,19,3,0,136.84,retired hurt
+26,Royal Challengers Bengaluru,DA Miller,22,10,1,2,220.0,not out
+31,Sunrisers Hyderabad,P Nissanka,8,6,0,1,133.33,c LS Livingstone b D Madushanka
+31,Sunrisers Hyderabad,KL Rahul,37,23,1,3,160.87,c Abhishek Sharma b Sakib Hussain
+31,Sunrisers Hyderabad,N Rana,57,30,7,3,190.0,c Abhishek Sharma b E Malinga
+31,Sunrisers Hyderabad,Sameer Rizvi,41,28,2,2,146.43,c D Madushanka b Harsh Dubey
+31,Sunrisers Hyderabad,DA Miller,0,1,0,0,0.0,b E Malinga
+31,Sunrisers Hyderabad,T Stubbs,27,16,3,1,168.75,c Sakib Hussain b E Malinga
+31,Sunrisers Hyderabad,Ashutosh Sharma,14,10,2,0,140.0,c Aniket Verma b E Malinga
+31,Sunrisers Hyderabad,AR Patel,2,3,0,0,66.67,c Nithish Kumar Reddy b Harsh Dubey
+31,Sunrisers Hyderabad,Kuldeep Yadav,1,2,0,0,50.0,not out
+31,Sunrisers Hyderabad,L Ngidi,0,1,0,0,0.0,c D Madushanka b Harsh Dubey
+35,Punjab Kings,P Nissanka,11,7,2,0,157.14,c P Simran Singh b Arshdeep Singh
+35,Punjab Kings,KL Rahul,152,67,16,9,226.87,not out
+35,Punjab Kings,N Rana,91,44,11,4,206.82,c SS Iyer b XC Bartlett
+35,Punjab Kings,DA Miller,3,3,0,0,100.0,not out
+39,Royal Challengers Bengaluru,SU Parakh,0,2,0,0,0.0,b B Kumar
+39,Royal Challengers Bengaluru,KL Rahul,1,3,0,0,33.33,c JM Sharma b JR Hazlewood
+39,Royal Challengers Bengaluru,N Rana,1,9,0,0,11.11,c D Padikkal b JR Hazlewood
+39,Royal Challengers Bengaluru,Sameer Rizvi,0,1,0,0,0.0,c JM Sharma b JR Hazlewood
+39,Royal Challengers Bengaluru,T Stubbs,5,3,1,0,166.67,c D Padikkal b B Kumar
+39,Royal Challengers Bengaluru,AR Patel,0,3,0,0,0.0,c JM Sharma b B Kumar
+39,Royal Challengers Bengaluru,Abishek Porel,30,33,3,0,90.91,b JR Hazlewood
+39,Royal Challengers Bengaluru,DA Miller,19,18,3,0,105.56,c JM Sharma b Rasikh Salam
+39,Royal Challengers Bengaluru,KA Jamieson,12,13,1,1,92.31,lbw b KH Pandya
+39,Royal Challengers Bengaluru,Kuldeep Yadav,3,11,0,0,27.27,b Suyash Sharma
+39,Royal Challengers Bengaluru,PVD Chameera,0,3,0,0,0.0,not out
+43,Rajasthan Royals,P Nissanka,62,33,6,3,187.88,lbw b RA Jadeja
+43,Rajasthan Royals,KL Rahul,75,40,6,5,187.5,c D Ferreira b JC Archer
+43,Rajasthan Royals,N Rana,33,17,3,2,194.12,c Dhruv Jurel b TU Deshpande
+43,Rajasthan Royals,T Stubbs,18,11,1,1,163.64,not out
+43,Rajasthan Royals,Ashutosh Sharma,25,15,4,0,166.67,not out
+48,Chennai Super Kings,P Nissanka,19,15,3,1,126.67,c D Brevis b Mukesh Choudhary
+48,Chennai Super Kings,KL Rahul,12,13,2,0,92.31,c RD Gaikwad b AJ Hosein
+48,Chennai Super Kings,N Rana,15,13,2,0,115.38,c Kartik Sharma b Noor Ahmad
+48,Chennai Super Kings,KK Nair,13,13,2,0,100.0,c Gurjapneet Singh b Noor Ahmad
+48,Chennai Super Kings,AR Patel,2,6,0,0,33.33,c AJ Hosein b Gurjapneet Singh
+48,Chennai Super Kings,T Stubbs,38,31,1,2,122.58,c Mukesh Choudhary b J Overton
+48,Chennai Super Kings,Sameer Rizvi,40,24,0,4,166.67,not out
+48,Chennai Super Kings,Ashutosh Sharma,14,5,0,2,280.0,run out (RD Gaikwad)
+51,Kolkata Knight Riders,P Nissanka,50,29,5,3,172.41,st A Raghuvanshi b AS Roy
+51,Kolkata Knight Riders,KL Rahul,23,14,4,0,164.29,c C Green b Kartik Tyagi
+51,Kolkata Knight Riders,N Rana,8,10,1,0,80.0,c SP Narine b C Green
+51,Kolkata Knight Riders,Sameer Rizvi,3,7,0,0,42.86,c R Powell b SP Narine
+51,Kolkata Knight Riders,T Stubbs,2,4,0,0,50.0,b AS Roy
+51,Kolkata Knight Riders,AR Patel,11,22,0,0,50.0,c AS Roy b VG Arora
+51,Kolkata Knight Riders,Ashutosh Sharma,39,28,3,3,139.29,c AM Rahane b Kartik Tyagi
+51,Kolkata Knight Riders,V Nigam,3,3,0,0,100.0,not out
+51,Kolkata Knight Riders,MA Starc,0,2,0,0,0.0,"run out (A Raghuvanshi, Kartik Tyagi)"
+51,Kolkata Knight Riders,L Ngidi,1,1,0,0,100.0,not out
+55,Punjab Kings,KL Rahul,9,8,2,0,112.5,c M Jansen b Arshdeep Singh
+55,Punjab Kings,Abishek Porel,5,6,1,0,83.33,b Yash Thakur
+55,Punjab Kings,SU Parakh,13,6,1,1,216.67,c YS Chahal b Arshdeep Singh
+55,Punjab Kings,T Stubbs,12,17,1,0,70.59,run out (C Connolly)
+55,Punjab Kings,AR Patel,56,30,8,2,186.67,c BJ Dwarshuis b MP Stoinis
+55,Punjab Kings,DA Miller,51,28,3,4,182.14,c P Simran Singh b BJ Dwarshuis
+55,Punjab Kings,Ashutosh Sharma,24,10,2,2,240.0,c P Dubey b Yash Thakur
+55,Punjab Kings,M Tiwari,18,8,2,1,225.0,not out
+55,Punjab Kings,Auqib Nabi,10,2,1,1,500.0,not out
+62,Rajasthan Royals,Abishek Porel,51,31,7,1,164.52,c D Ferreira b Brijesh Sharma
+62,Rajasthan Royals,KL Rahul,56,42,1,3,133.33,b MD Shanaka
+62,Rajasthan Royals,SU Parakh,9,8,1,0,112.5,c Dhruv Jurel b JC Archer
+62,Rajasthan Royals,AR Patel,34,18,2,2,188.89,not out
+62,Rajasthan Royals,T Stubbs,4,6,0,0,66.67,c YBK Jaiswal b JC Archer
+62,Rajasthan Royals,DA Miller,9,6,0,1,150.0,c MD Shanaka b Brijesh Sharma
+62,Rajasthan Royals,Ashutosh Sharma,18,5,1,2,360.0,not out
+70,Kolkata Knight Riders,Abishek Porel,22,18,4,0,122.22,c T Dahiya b SR Dubey
+70,Kolkata Knight Riders,KL Rahul,60,30,5,4,200.0,c R Powell b AS Roy
+70,Kolkata Knight Riders,SU Parakh,24,17,3,1,141.18,c AM Rahane b SP Narine
+70,Kolkata Knight Riders,AR Patel,39,25,3,2,156.0,c RK Singh b CV Varun
+70,Kolkata Knight Riders,DA Miller,28,19,0,3,147.37,c FH Allen b SR Dubey
+70,Kolkata Knight Riders,Ashutosh Sharma,18,11,2,1,163.64,not out
+70,Kolkata Knight Riders,T Stubbs,0,1,0,0,0.0,not out

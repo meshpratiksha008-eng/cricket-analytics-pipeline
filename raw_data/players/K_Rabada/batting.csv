@@ -1,0 +1,5 @@
+match_number,date,opponent,venue,runs,balls,fours,sixes,strike_rate,dismissal,batting_position
+9,2026-04-04,Rajasthan Royals,"Narendra Modi Stadium, Ahmedabad",23,16,1,2,143.75,not out,9
+30,2026-04-20,Mumbai Indians,"Narendra Modi Stadium, Ahmedabad",12,14,2,0,85.71,st Q de Kock b AM Ghazanfar,9
+71,2026-05-26,Royal Challengers Bengaluru,"Himachal Pradesh Cricket Association Stadium, Dharamsala",9,5,2,0,180.0,c V Kohli b KH Pandya,9
+74,2026-05-31,Royal Challengers Bengaluru,"Narendra Modi Stadium, Ahmedabad",3,3,0,0,100.0,not out,10

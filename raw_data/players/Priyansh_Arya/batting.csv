@@ -1,0 +1,14 @@
+match_number,date,opponent,venue,runs,balls,fours,sixes,strike_rate,dismissal,batting_position
+4,2026-03-31,Gujarat Titans,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",7,8,0,1,87.5,c Ashok Sharma b K Rabada,1
+7,2026-04-03,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",39,11,3,4,354.55,b MJ Henry,1
+17,2026-04-11,Sunrisers Hyderabad,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",57,20,5,5,285.0,c Nithish Kumar Reddy b Shivang Kumar,1
+24,2026-04-16,Mumbai Indians,"Wankhede Stadium, Mumbai",15,9,2,1,166.67,c DL Chahar b AM Ghazanfar,1
+29,2026-04-19,Lucknow Super Giants,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",93,37,4,9,251.35,c MR Marsh b M Siddharth,1
+35,2026-04-25,Delhi Capitals,"Arun Jaitley Stadium, Delhi",43,17,2,5,252.94,c Sameer Rizvi b AR Patel,1
+40,2026-04-28,Rajasthan Royals,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",29,11,5,1,263.64,c N Burger b JC Archer,2
+46,2026-05-03,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2,2,0,0,100.0,c N Sindhu b Mohammed Siraj,1
+49,2026-05-06,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",1,3,0,0,33.33,c E Malinga b PJ Cummins,1
+55,2026-05-11,Delhi Capitals,"Himachal Pradesh Cricket Association Stadium, Dharamsala",56,33,2,6,169.7,c SU Parakh b M Tiwari,1
+58,2026-05-14,Mumbai Indians,"Himachal Pradesh Cricket Association Stadium, Dharamsala",22,17,4,0,129.41,b DL Chahar,1
+61,2026-05-17,Royal Challengers Bengaluru,"Himachal Pradesh Cricket Association Stadium, Dharamsala",0,3,0,0,0.0,c R Shepherd b B Kumar,1
+68,2026-05-23,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",0,1,0,0,0.0,c Arjun Tendulkar b Mohammed Shami,1

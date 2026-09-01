@@ -1,0 +1,17 @@
+match_number,date,opponent,venue,runs,balls,fours,sixes,strike_rate,dismissal,batting_position
+1,2026-03-28,Sunrisers Hyderabad,"M Chinnaswamy Stadium, Bengaluru",69,38,5,5,181.58,not out,2
+11,2026-04-05,Chennai Super Kings,"M Chinnaswamy Stadium, Bengaluru",28,18,2,1,155.56,c S Dube b A Kamboj,2
+16,2026-04-10,Rajasthan Royals,"Barsapara Cricket Stadium, Guwahati",32,16,7,0,200.0,b Ravi Bishnoi,2
+20,2026-04-12,Mumbai Indians,"Wankhede Stadium, Mumbai",50,38,5,1,131.58,c SA Yadav b HH Pandya,2
+23,2026-04-15,Lucknow Super Giants,"M Chinnaswamy Stadium, Bengaluru",49,34,6,1,144.12,c N Pooran b Avesh Khan,2
+26,2026-04-18,Delhi Capitals,"M Chinnaswamy Stadium, Bengaluru",19,13,3,0,146.15,c P Nissanka b L Ngidi,2
+34,2026-04-24,Gujarat Titans,"M Chinnaswamy Stadium, Bengaluru",81,44,8,4,184.09,b JO Holder,2
+39,2026-04-27,Delhi Capitals,"Arun Jaitley Stadium, Delhi",23,15,1,2,153.33,not out,2
+42,2026-04-30,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",28,13,5,1,215.38,c Rashid Khan b K Rabada,2
+50,2026-05-07,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",0,2,0,0,0.0,b Prince Yadav,2
+54,2026-05-10,Mumbai Indians,"Shaheed Veer Narayan Singh International Stadium, Raipur",0,1,0,0,0.0,c RA Bawa b DL Chahar,2
+57,2026-05-13,Kolkata Knight Riders,"Shaheed Veer Narayan Singh International Stadium, Raipur",105,60,11,3,175.0,not out,2
+61,2026-05-17,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",58,37,4,3,156.76,c Priyansh Arya b YS Chahal,2
+67,2026-05-22,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",15,11,2,0,136.36,c R Smaran b Sakib Hussain,2
+71,2026-05-26,Gujarat Titans,"Himachal Pradesh Cricket Association Stadium, Dharamsala",43,25,5,1,172.0,b JO Holder,2
+74,2026-05-31,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",75,42,9,3,178.57,not out,2

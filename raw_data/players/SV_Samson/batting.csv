@@ -1,0 +1,15 @@
+match_number,date,opponent,venue,runs,balls,fours,sixes,strike_rate,dismissal,batting_position
+3,2026-03-30,Rajasthan Royals,"Barsapara Cricket Stadium, Guwahati",6,7,1,0,85.71,b N Burger,1
+7,2026-04-03,Punjab Kings,"MA Chidambaram Stadium, Chepauk, Chennai",7,7,1,0,100.0,c P Simran Singh b XC Bartlett,1
+11,2026-04-05,Royal Challengers Bengaluru,"M Chinnaswamy Stadium, Bengaluru",9,5,0,1,180.0,c D Padikkal b JA Duffy,1
+18,2026-04-11,Delhi Capitals,"MA Chidambaram Stadium, Chepauk, Chennai",115,56,15,4,205.36,not out,1
+22,2026-04-14,Kolkata Knight Riders,"MA Chidambaram Stadium, Chepauk, Chennai",48,32,4,3,150.0,b Kartik Tyagi,1
+27,2026-04-18,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",7,3,0,1,233.33,c H Klaasen b Nithish Kumar Reddy,1
+33,2026-04-23,Mumbai Indians,"Wankhede Stadium, Mumbai",101,54,10,6,187.04,not out,1
+37,2026-04-26,Gujarat Titans,"MA Chidambaram Stadium, Chepauk, Chennai",11,15,2,0,73.33,c JC Buttler b K Rabada,1
+44,2026-05-02,Mumbai Indians,"MA Chidambaram Stadium, Chepauk, Chennai",11,9,2,0,122.22,c RD Rickelton b JJ Bumrah,1
+48,2026-05-05,Delhi Capitals,"Arun Jaitley Stadium, Delhi",87,52,7,6,167.31,not out,1
+53,2026-05-10,Lucknow Super Giants,"MA Chidambaram Stadium, Chepauk, Chennai",28,14,3,2,200.0,b DS Rathi,1
+59,2026-05-15,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",20,20,3,0,100.0,c MD Choudhary b Akash Singh,1
+63,2026-05-18,Sunrisers Hyderabad,"MA Chidambaram Stadium, Chepauk, Chennai",27,13,5,1,207.69,c Ishan Kishan b PJ Cummins,1
+66,2026-05-21,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",0,1,0,0,0.0,c JC Buttler b Mohammed Siraj,1
