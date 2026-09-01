@@ -1,5 +1,9 @@
 # 🏏 Cricket Analytics & AI Match Prediction Engine
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cricket-analytics-pipeline-7ocyyvqfd7ukomzgmhqnmu.streamlit.app)
+
+> **Live Demo:** [Open Interactive Cricket Hub](https://cricket-analytics-pipeline-7ocyyvqfd7ukomzgmhqnmu.streamlit.app)
+
 An end-to-end data analytics and machine learning application built with Python, SQLite, Scikit-Learn, and Streamlit.
 
 ## 🚀 Key Features
@@ -17,5 +21,5 @@ An end-to-end data analytics and machine learning application built with Python,
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/meshpratiksha008-eng/cricket-analytics-pipeline.git
+   git clone [https://github.com/meshpratiksha008-eng/cricket-analytics-pipeline.git](https://github.com/meshpratiksha008-eng/cricket-analytics-pipeline.git)
    cd cricket-analytics-pipeline
