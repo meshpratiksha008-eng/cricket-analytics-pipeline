@@ -157,7 +157,26 @@ with tab1:
             else:
                 selected_venue = "Unknown"
 
+        # Display Team Logos for Predictor
         st.write("")
+        p_logo1, p_vs, p_logo2 = st.columns([2, 1, 2])
+
+        with p_logo1:
+            img_a = get_team_logo(team_a)
+            if img_a:
+                st.image(img_a, width=100)
+            st.subheader(team_a)
+
+        with p_vs:
+            st.markdown("<h2 style='text-align: center; margin-top: 25px;'>VS</h2>", unsafe_allow_html=True)
+
+        with p_logo2:
+            img_b = get_team_logo(team_b)
+            if img_b:
+                st.image(img_b, width=100)
+            st.subheader(team_b)
+
+        st.divider()
         if st.button("🚀 Calculate Win Probability", use_container_width=True):
             # Construct row matching model training schema
             input_dict = {
