@@ -4,6 +4,31 @@ import joblib
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import os
+
+TEAM_LOGOS = {
+    "Chennai Super Kings": "logos/CSK.png",
+    "Delhi Capitals": "logos/DC.png",
+    "Gujarat Titans": "logos/GT.png",
+    "Kolkata Knight Riders": "logos/KKR.png",
+    "Lucknow Super Giants": "logos/LSG.png",
+    "Mumbai Indians": "logos/MI.png",
+    "Punjab Kings": "logos/PBKS.png",
+    "Rajasthan Royals": "logos/RR.png",
+    "Royal Challengers Bengaluru": "logos/RCB.png",
+    "Sunrisers Hyderabad": "logos/SRH.png"
+}
+
+def get_team_logo(team_name):
+    path = TEAM_LOGOS.get(team_name)
+    if path and os.path.exists(path):
+        return path
+    # Fallback if extensions differ
+    for ext in [".jpg", ".jpeg", ".webp"]:
+        alt_path = path.rsplit(".", 1)[0] + ext if path else None
+        if alt_path and os.path.exists(alt_path):
+            return alt_path
+    return None
 
 # -------------------------------------------------------------
 # PAGE CONFIGURATION
@@ -222,6 +247,27 @@ with tab2:
                 & (matches_df[team2_col] == h2h_team_a)
             )
         ]
+
+        # Display Team Logos and Matchup Header
+        st.write("")
+        logo_col1, vs_col, logo_col2 = st.columns([2, 1, 2])
+
+        with logo_col1:
+            img_a = get_team_logo(h2h_team_a)
+            if img_a:
+                st.image(img_a, width=110)
+            st.subheader(h2h_team_a)
+
+        with vs_col:
+            st.markdown("<h2 style='text-align: center; margin-top: 25px;'>VS</h2>", unsafe_allow_html=True)
+
+        with logo_col2:
+            img_b = get_team_logo(h2h_team_b)
+            if img_b:
+                st.image(img_b, width=110)
+            st.subheader(h2h_team_b)
+
+        st.divider()
 
         total_played = len(h2h_matches)
         m1, m2, m3 = st.columns(3)
