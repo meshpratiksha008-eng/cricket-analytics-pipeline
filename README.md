@@ -10,6 +10,10 @@ An end-to-end data analytics and machine learning application built with Python,
 * **Automated ETL Pipeline:** Ingests, standardizes, deduplicates, and structures raw cricket match/player data into Parquet and SQLite.
 * **Interactive Web Hub:** Streamlit-powered dashboard featuring head-to-head records and dynamic player search.
 * **AI Match Outcome Predictor:** Supervised machine learning classification pipeline (`RandomForestClassifier`) predicting match outcomes based on toss, teams, and venue conditions.
+### 🎯 Advanced Decision Intelligence Modules
+
+* **Tactical Batter vs. Bowler Matchup Matrix:** Granular head-to-head tactical query engine analyzing 17,500+ ball-by-ball deliveries. Computes situational metrics (strike rate suppression, dot-ball percentage, boundary frequency, and dismissal vulnerability) to drive pre-match scouting and bowling rotation strategies.
+* **Phase-of-Play Impact Engine:** Contextual feature engineering isolating player performance across tournament phases: **Powerplay (Overs 1–6)**, **Middle Overs (Overs 7–15)**, and **Death Overs (Overs 16–20)**. Replaces flat aggregate metrics with situational efficiency indices (Economy vs. Dot Ball % containment quadrants, Strike Rate vs. Boundary % output).
 
 ## 🛠️ Tech Stack
 * **Language:** Python
