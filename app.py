@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import joblib
@@ -11,21 +12,60 @@ def load_pipeline():
 
 pipeline = load_pipeline()
 
-# Franchise Branding & Colors
-TEAM_COLORS = {
-    "Chennai Super Kings": "#F9CD05",
-    "Delhi Capitals": "#004C93",
-    "Gujarat Titans": "#1B2133",
-    "Kolkata Knight Riders": "#3A225D",
-    "Lucknow Super Giants": "#A72056",
-    "Mumbai Indians": "#004BA0",
-    "Punjab Kings": "#DD1F2D",
-    "Rajasthan Royals": "#EA1A85",
-    "Royal Challengers Bengaluru": "#DA1818",
-    "Sunrisers Hyderabad": "#FF822A"
+TEAM_CONFIG = {
+    "Chennai Super Kings": {
+        "color": "#F9CD05",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/2/2b/Chennai_Super_Kings_Logo.svg",
+        "file": "logos/csk.png"
+    },
+    "Delhi Capitals": {
+        "color": "#004C93",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/2/2f/Delhi_Capitals.svg",
+        "file": "logos/dc.png"
+    },
+    "Gujarat Titans": {
+        "color": "#1B2133",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/0/09/Gujarat_Titans_Logo.svg",
+        "file": "logos/gt.png"
+    },
+    "Kolkata Knight Riders": {
+        "color": "#3A225D",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/4/4c/Kolkata_Knight_Riders_Logo.svg",
+        "file": "logos/kkr.png"
+    },
+    "Lucknow Super Giants": {
+        "color": "#A72056",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/a/a9/Lucknow_Super_Giants_IPL_Logo.svg",
+        "file": "logos/lsg.png"
+    },
+    "Mumbai Indians": {
+        "color": "#004BA0",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/c/cd/Mumbai_Indians_Logo.svg",
+        "file": "logos/mi.png"
+    },
+    "Punjab Kings": {
+        "color": "#DD1F2D",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/d/d4/Punjab_Kings_Logo.svg",
+        "file": "logos/pbks.png"
+    },
+    "Rajasthan Royals": {
+        "color": "#EA1A85",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/6/60/Rajasthan_Royals_Logo.svg",
+        "file": "logos/rr.png"
+    },
+    "Royal Challengers Bengaluru": {
+        "color": "#DA1818",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/2/2a/Royal_Challengers_Bangalore_2020.svg",
+        "file": "logos/rcb.png"
+    },
+    "Sunrisers Hyderabad": {
+        "color": "#FF822A",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/8/81/Sunrisers_Hyderabad.svg",
+        "file": "logos/srh.png"
+    }
 }
 
-TEAMS = sorted(list(TEAM_COLORS.keys()))
+TEAMS = sorted(list(TEAM_CONFIG.keys()))
 
 VENUES = [
     "Wankhede Stadium", "Eden Gardens", "M Chinnaswamy Stadium",
@@ -33,10 +73,18 @@ VENUES = [
     "Arun Jaitley Stadium", "Rajiv Gandhi International Stadium"
 ]
 
-st.title("🏏 IPL Second-Innings Win Probability Predictor")
-st.markdown("Dynamic match momentum forecasting powered by Logistic Regression & Historical Cricsheet data.")
+def render_team_logo(team_name):
+    cfg = TEAM_CONFIG.get(team_name, {})
+    local_file = cfg.get("file")
+    if local_file and os.path.exists(local_file):
+        st.image(local_file, width=110)
+    else:
+        st.image(cfg.get("logo"), width=110)
 
-# --- Match Configuration Section ---
+st.title("🏏 IPL Live Win Probability Predictor")
+st.markdown("Machine Learning Chase Forecaster backed by PostgreSQL ball-by-ball records.")
+
+# --- Match Selectors ---
 col_teams, col_venue = st.columns([2, 1])
 
 with col_teams:
@@ -52,7 +100,7 @@ with col_venue:
 
 st.divider()
 
-# --- Match State Sliders & Inputs ---
+# --- Match Situation Inputs ---
 c1, c2, c3, c4 = st.columns(4)
 
 with c1:
@@ -63,7 +111,7 @@ with c3:
     wickets_out = st.number_input("Wickets Down", min_value=0, max_value=9, value=4, step=1)
 with c4:
     overs_completed = st.number_input(
-        "Overs Bowled (e.g., 15.2)", 
+        "Overs Bowled (e.g. 15.2)", 
         min_value=0.1, 
         max_value=19.5, 
         value=15.0, 
@@ -87,7 +135,7 @@ wickets_left = 10 - wickets_out
 crr = (score * 6.0) / balls_bowled if balls_bowled > 0 else 0.0
 rrr = (runs_left * 6.0) / balls_left if balls_left > 0 else 0.0
 
-# Dynamic Equation Badges
+# Metric Banner
 m1, m2, m3, m4 = st.columns(4)
 m1.metric("Runs Needed", f"{runs_left} runs")
 m2.metric("Balls Remaining", f"{balls_left} balls")
@@ -113,28 +161,39 @@ if st.button("Calculate Live Odds", type="primary", use_container_width=True):
     bat_prob = round(probs[1] * 100, 1)
     bowl_prob = round(probs[0] * 100, 1)
 
-    # --- Circular Gauge Meters ---
-    g_col1, g_col2 = st.columns(2)
-
     def create_gauge(team_name, prob, color):
         fig = go.Figure(go.Indicator(
             mode="gauge+number",
             value=prob,
-            title={'text': team_name, 'font': {'size': 20}},
-            number={'suffix': "%"},
+            title={'text': f"<b>{team_name}</b>", 'font': {'size': 18}},
+            number={'suffix': "%", 'font': {'size': 32}},
             gauge={
                 'axis': {'range': [0, 100]},
                 'bar': {'color': color},
                 'steps': [
-                    {'range': [0, 50], 'color': "#f0f2f6"},
-                    {'range': [50, 100], 'color': "#e1e4ea"}
+                    {'range': [0, 50], 'color': "#f4f4f7"},
+                    {'range': [50, 100], 'color': "#e2e4e9"}
                 ]
             }
         ))
-        fig.update_layout(height=260, margin=dict(l=20, r=20, t=40, b=20))
+        fig.update_layout(height=230, margin=dict(l=10, r=10, t=30, b=10))
         return fig
 
+    # Two balanced presentation columns
+    g_col1, g_col2 = st.columns(2)
+
     with g_col1:
-        st.plotly_chart(create_gauge(batting_team, bat_prob, TEAM_COLORS.get(batting_team, "#2b5c8f")), use_container_width=True)
+        st.write("### Batting Side")
+        render_team_logo(batting_team)
+        st.plotly_chart(
+            create_gauge(batting_team, bat_prob, TEAM_CONFIG[batting_team]["color"]), 
+            use_container_width=True
+        )
+
     with g_col2:
-        st.plotly_chart(create_gauge(bowling_team, bowl_prob, TEAM_COLORS.get(bowling_team, "#e65c00")), use_container_width=True)
+        st.write("### Defending Side")
+        render_team_logo(bowling_team)
+        st.plotly_chart(
+            create_gauge(bowling_team, bowl_prob, TEAM_CONFIG[bowling_team]["color"]), 
+            use_container_width=True
+        )
