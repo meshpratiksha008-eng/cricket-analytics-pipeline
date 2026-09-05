@@ -197,3 +197,57 @@ if st.button("Calculate Live Odds", type="primary", use_container_width=True):
             create_gauge(bowling_team, bowl_prob, TEAM_CONFIG[bowling_team]["color"]), 
             use_container_width=True
         )
+
+        # ==========================================
+    # DATA ANALYTICS: NEXT-BALL WPA SENSITIVITY
+    # ==========================================
+    st.divider()
+    st.subheader("⚡ Next-Ball Leverage Analysis (Win Probability Added)")
+    st.caption("Sensitivity analysis quantifying match volatility across potential next-ball events.")
+
+    def calc_future_prob(r_inc, w_inc):
+        sim_b_left = max(balls_left - 1, 1)
+        sim_r_left = max(runs_left - r_inc, 0)
+        sim_w_left = max(wickets_left - w_inc, 0)
+        sim_b_bowled = balls_bowled + 1
+        sim_score = score + r_inc
+
+        sim_crr = (sim_score * 6.0) / sim_b_bowled
+        sim_rrr = (sim_r_left * 6.0) / sim_b_left
+
+        sim_df = pd.DataFrame([{
+            'batting_team': batting_team,
+            'bowling_team': bowling_team,
+            'venue': venue,
+            'runs_left': float(sim_r_left),
+            'balls_left': float(sim_b_left),
+            'wickets_left': float(sim_w_left),
+            'target': float(target),
+            'crr': float(sim_crr),
+            'rrr': float(sim_rrr)
+        }])
+        sim_probs = pipeline.predict_proba(sim_df)[0]
+        return round(sim_probs[1] * 100, 1), sim_rrr
+
+    scenarios = [
+        ("Dot Ball (0 runs)", 0, 0),
+        ("Single (1 run)", 1, 0),
+        ("Two Runs (2 runs)", 2, 0),
+        ("Boundary (4 runs)", 4, 0),
+        ("Maximum (6 runs)", 6, 0),
+        ("Wicket Falls", 0, 1)
+    ]
+
+    analytics_table = []
+    for event_name, runs_added, wickets_added in scenarios:
+        new_prob, new_rrr = calc_future_prob(runs_added, wickets_added)
+        wpa = round(new_prob - bat_prob, 1)
+
+        analytics_table.append({
+            "Next Ball Scenario": event_name,
+            "Updated RRR": round(new_rrr, 2),
+            f"{batting_team} New Win %": f"{new_prob}%",
+            "Win Probability Added (WPA)": f"{'+' if wpa > 0 else ''}{wpa}%"
+        })
+
+    st.dataframe(pd.DataFrame(analytics_table), hide_index=True, use_container_width=True)
