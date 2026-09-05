@@ -1,17 +1,26 @@
 # Virtual Environment
 venv/
-ENV/
 env/
+ENV/
 
-# Python Cache
+# Python Cache & Artifacts
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
 .ipynb_checkpoints/
 
 # System Files
 .DS_Store
 Thumbs.db
+
+# VS Code Workspace
+.vscode/
+
+# Environment Variables & Credentials
+.env
+
+# Raw Datasets & Local Databases
 raw_data/matches/
 raw_data/players/
 raw_data/teams/

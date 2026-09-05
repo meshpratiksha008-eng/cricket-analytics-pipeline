@@ -1,71 +1,142 @@
-import sqlite3
+import os
 import joblib
 import pandas as pd
-from pathlib import Path
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, classification_report
+from sqlalchemy import create_engine
+from sqlalchemy.engine import URL
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, log_loss
 
-# 1. Load Data
-conn = sqlite3.connect("cleaned_data/cricket_database.sqlite")
-df = pd.read_sql("SELECT * FROM matches", conn)
-conn.close()
+DB_USER = "postgres"
+DB_PASS = "megha@23"
+DB_HOST = "localhost"
+DB_PORT = 5432
+DB_NAME = "ipl_analytics"
 
-# Dynamically locate key columns
-team1_col = next((c for c in df.columns if "team1" in c or "team_1" in c), None)
-team2_col = next((c for c in df.columns if "team2" in c or "team_2" in c), None)
-winner_col = next((c for c in df.columns if "win" in c or "result" in c), None)
-toss_win_col = next((c for c in df.columns if "toss_win" in c or "toss_winner" in c), None)
-venue_col = next((c for c in df.columns if "venue" in c or "city" in c or "ground" in c), None)
+connection_url = URL.create(
+    drivername="postgresql+psycopg2",
+    username=DB_USER,
+    password=DB_PASS,
+    host=DB_HOST,
+    port=DB_PORT,
+    database=DB_NAME,
+)
 
-# Drop missing target rows
-df = df.dropna(subset=[team1_col, team2_col, winner_col])
+engine = create_engine(connection_url)
 
-# Filter out matches with no result / ties if needed
-df = df[df[winner_col].isin(df[team1_col].unique()) | df[winner_col].isin(df[team2_col].unique())]
+def fetch_and_prep_data():
+    print("Extracting second innings chase data from PostgreSQL...")
+    query = """
+    WITH first_innings AS (
+        SELECT 
+            match_number,
+            SUM(total_runs) AS target_score
+        FROM deliveries
+        WHERE innings = 1
+        GROUP BY match_number
+    )
+    SELECT 
+        d.match_number,
+        d.innings,
+        d.team AS batting_team,
+        m.team_1,
+        m.team_2,
+        m.winner,
+        m.venue,
+        (fi.target_score + 1) AS target,
+        d.over,
+        d.ball,
+        d.total_runs,
+        d.is_wicket
+    FROM deliveries d
+    JOIN first_innings fi ON d.match_number = fi.match_number
+    JOIN matches m ON d.match_number = m.match_number
+    WHERE d.innings = 2
+    ORDER BY d.match_number, d.over, d.ball;
+    """
+    df = pd.read_sql(query, engine)
 
-# 2. Select Features & Target
-feature_cols = [col for col in [team1_col, team2_col, toss_win_col, venue_col] if col is not None]
-X = df[feature_cols]
-y = df[winner_col]
+    for col in ['target', 'total_runs', 'over', 'ball', 'match_number']:
+        df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0).astype(float)
 
-# 3. Build Preprocessing & Modeling Pipeline
-preprocessor = ColumnTransformer(
-    transformers=[
-        ("cat", OneHotEncoder(handle_unknown="ignore", sparse_output=False), feature_cols)
+    df['is_wicket'] = df['is_wicket'].astype(bool).astype(int)
+
+    for str_col in ['batting_team', 'team_1', 'team_2', 'winner', 'venue']:
+        df[str_col] = df[str_col].astype(str).str.strip()
+
+    df['bowling_team'] = df.apply(
+        lambda r: r['team_2'] if r['batting_team'] == r['team_1'] else r['team_1'],
+        axis=1
+    )
+
+    df['current_score'] = df.groupby('match_number')['total_runs'].cumsum()
+    df['balls_bowled'] = (df['over'] * 6.0) + df['ball']
+    df['balls_left'] = 120.0 - df['balls_bowled']
+    df['runs_left'] = df['target'] - df['current_score']
+
+    df['wickets_lost'] = df.groupby('match_number')['is_wicket'].cumsum()
+    df['wickets_left'] = 10.0 - df['wickets_lost']
+
+    df['crr'] = (df['current_score'] * 6.0) / df['balls_bowled']
+    df['rrr'] = (df['runs_left'] * 6.0) / df['balls_left']
+
+    df['result'] = (df['batting_team'] == df['winner']).astype(int)
+
+    clean_df = df[(df['balls_left'] > 0) & (df['runs_left'] >= 0)].copy()
+    clean_df = clean_df.replace([float('inf'), -float('inf')], pd.NA).dropna()
+
+    return clean_df
+
+def train():
+    df = fetch_and_prep_data()
+
+    features = [
+        'batting_team', 
+        'bowling_team', 
+        'venue', 
+        'runs_left', 
+        'balls_left', 
+        'wickets_left', 
+        'target', 
+        'crr', 
+        'rrr'
     ]
-)
 
-model = Pipeline(
-    steps=[
-        ("preprocessor", preprocessor),
-        ("classifier", RandomForestClassifier(n_estimators=100, random_state=42, max_depth=10)),
-    ]
-)
+    X = df[features]
+    y = df['result']
 
-# 4. Train-Test Split
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42, stratify=y
+    )
 
-# 5. Train Model
-print("Training match prediction model...")
-model.fit(X_train, y_train)
+    preprocessor = ColumnTransformer(
+        transformers=[
+            ('cat', OneHotEncoder(sparse_output=False, handle_unknown='ignore'), ['batting_team', 'bowling_team', 'venue']),
+            ('num', StandardScaler(), ['runs_left', 'balls_left', 'wickets_left', 'target', 'crr', 'rrr'])
+        ]
+    )
 
-# 6. Evaluate
-y_pred = model.predict(X_test)
-accuracy = accuracy_score(y_test, y_pred)
-print(f"\nModel Accuracy: {accuracy * 100:.2f}%\n")
-print("--- Classification Report ---")
-print(classification_report(y_test, y_pred, zero_division=0))
+    pipeline = Pipeline(steps=[
+        ('preprocessor', preprocessor),
+        ('model', LogisticRegression(solver='lbfgs', max_iter=1000))
+    ])
 
-# 7. Save Model Artifact
-model_dir = Path("models")
-model_dir.mkdir(parents=True, exist_ok=True)
-model_path = model_dir / "match_winner_model.joblib"
+    print("Training Win-Probability Logistic Regression...")
+    pipeline.fit(X_train, y_train)
 
-joblib.dump(model, model_path)
-print(f"Model saved successfully to: {model_path}")
+    preds = pipeline.predict(X_test)
+    probs = pipeline.predict_proba(X_test)
+
+    print(f"\nModel Evaluation:")
+    print(f"• Accuracy : {accuracy_score(y_test, preds) * 100:.2f}%")
+    print(f"• Log Loss : {log_loss(y_test, probs):.4f}")
+
+    os.makedirs("models", exist_ok=True)
+    joblib.dump(pipeline, "models/win_predictor.joblib")
+    print("\n✓ Model saved to: models/win_predictor.joblib")
+
+if __name__ == "__main__":
+    train()
