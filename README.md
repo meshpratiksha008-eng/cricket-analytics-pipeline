@@ -8,7 +8,7 @@
 
 An end-to-end sports decision intelligence platform and machine learning system built to transform granular ball-by-ball tournament data into tactical scouting insights, historical venue benchmarks, and live second-innings match outcome predictions.
 
-🔗 **Live Application:** [Interactive Analytics Hub](https://pratiksha-cricket-analytics.streamlit.app/)
+🔗 **Live Application:** [Interactive Analytics Hub](https://https://iplport-cricket-analytics.streamlit.app/)
 
 ---
 
